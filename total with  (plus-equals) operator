@@ -1,12 +1,17 @@
+#declare the variable
 total_price = 0
 
-new_sneakers = 50.00
+new_sneakers = 45.00
 
+#add the item to the total_price variable
 total_price += new_sneakers
 
 nice_sweater = 39.00
 fun_books = 20.00
+
 # Update total_price here:
 total_price += nice_sweater
 total_price += fun_books
+
+#display updated total_price
 print("The total price is", total_price) 
